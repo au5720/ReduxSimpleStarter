@@ -1,3 +1,26 @@
 input {
   color: lightblue;
 }
+
+.video-detail {
+  width: 200px;
+} 
+
+.video-list {
+  list-style-type: none;
+  margin: 0;
+}
+
+.video-list-item {
+  margin-top: 10px;
+  background-color: #ddd;
+  color: #fff;
+  border: 1px solid #000;
+  width: 500px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.video-list-item:hover {
+  background-color: #eee;
+  color: #000;
+}
